@@ -7,7 +7,8 @@ function playGame(playerMove)
     if(randomNumber < 1/3)
     {
         computerMove = "Rock";
-    }else if(randomNumber < 2/3)
+    }
+    else if(randomNumber < 2/3)
     {
         computerMove = "Paper";
     }
